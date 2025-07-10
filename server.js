@@ -16,7 +16,7 @@ app.use(cors());
 app.use(express.json());
 app.use('/uploads', express.static('uploads'));
 
-// MongoDB Connect (LOCALHOST)
+// MongoDB Connect 
 mongoose.connect('mongodb://127.0.0.1:27017/scheme_finder', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
