@@ -17,7 +17,7 @@ app.use(express.json());
 app.use('/uploads', express.static('uploads'));
 
 // MongoDB Connect 
-mongoose.connect('mongodb://127.0.0.1:27017/scheme_finder', {
+mongoose.connect('mongodb+srv://Gurumoorthy:Guru2004%40%40@cluster0.ctpsiua.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
