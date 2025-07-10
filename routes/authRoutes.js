@@ -67,9 +67,6 @@ router.post('/register', upload.fields([
     }
 });
 
-app.get('/', (req, res) => {
-  res.send('SmartGov backend is running ');
-});
 
 
 // LOGIN ROUTE
